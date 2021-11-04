@@ -26,7 +26,7 @@ p1 <- ggplot() +
   scale_fill_gradient("Population", low="white", high="#c90055") +
   coord_sf(expand=F, xlim=c(250000, 271000)) +
   labs(title="GLASGOW", 
-       subtitle="\n",
+       subtitle="",
        caption="#30DapMapChallenge\nN. Rennie | Data: www.nrscotland.gov.uk & osdatahub.os.uk") +
   guides(colour = guide_colourbar(direction = "horizontal", 
                                   title.position = "top",
