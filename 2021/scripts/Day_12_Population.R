@@ -37,15 +37,6 @@ plot_data <- d[,c(1,2,5:96)] %>%
          `31`=as.numeric(`31`)) %>%
   pivot_longer(cols=3:93, names_to = "age", values_to="pop")
 
-#make heatmap and facet
-p <- ggplot(plot_data, aes(x=Year, y=as.numeric(age), fill= pop)) + 
-  geom_tile() +
-  coord_cartesian(expand=F) +
-  scale_fill_distiller(palette = "RdPu") +
-  facet_wrap(~name) +
-  labs(x="", y="Age")
-p
-
 #create grid
 glasgow_wards_grid <- data.frame(row=c(3, 2, 3, 1, 4, 2, 1, 2, 2, 3, 5, 2, 5, 6, 1, 5, 1, 2, 4, 3, 4, 1, 2), 
            col=c(4, 7, 5, 4, 2, 5, 1, 6, 1, 3, 2, 4, 4, 4, 3, 3, 7, 3, 3, 6, 4, 5, 2),
@@ -61,7 +52,6 @@ glasgow_wards_grid <- data.frame(row=c(3, 2, 3, 1, 4, 2, 1, 2, 2, 3, 5, 2, 5, 6,
                   "North East", "Partick East/Kelvindale", "Pollokshields", "Shettleston", 
                   "Southside Central", "Springburn/Robroyston", "Victoria Park"))
 grid_preview(glasgow_wards_grid)
-
 
 #plot grid
 p <- ggplot(plot_data, aes(x=Year, y=as.numeric(age), fill= pop)) + 
