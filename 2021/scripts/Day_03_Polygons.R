@@ -19,10 +19,12 @@ colnames(d)[1] <- "CODE"
 
 #join data
 plot_data <- left_join(s_file, d, by="CODE")
+plot_data <- plot_data %>%
+  mutate(all_ages = as.numeric(gsub(",","",`All Ages`)))
 
 #make plot
 p1 <- ggplot() +
-  geom_sf(data=plot_data, aes(fill=as.numeric(gsub(",","",d$`All Ages`))), colour="grey90", size=2) +
+  geom_sf(data=plot_data, aes(fill=all_ages), colour="grey90", size=2) +
   scale_fill_gradient("Population", low="white", high="#c90055") +
   coord_sf(expand=F, xlim=c(250000, 271000)) +
   labs(title="GLASGOW", 
