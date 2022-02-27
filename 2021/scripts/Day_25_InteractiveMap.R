@@ -2,6 +2,9 @@ library(leaflet)
 library(htmlwidgets)
 library(sf)
 library(dplyr)
+library(MapColoring)
+library(CEoptim)
+library(rcartocolor)
 
 s_file <- st_read(dsn = "2021/data/boundaries/Data/GB/district_borough_unitary_ward_region.shp") %>%
   filter(FILE_NAME == "GLASGOW_CITY")
