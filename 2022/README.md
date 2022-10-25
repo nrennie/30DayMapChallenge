@@ -15,3 +15,8 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 <p align="center">
 <img src="maps/day_02.png?raw=true" width="50%">
 </p>
+
+### Day 3 (Polygons)
+<p align="center">
+<img src="maps/day_03.png?raw=true" width="50%">
+</p>
