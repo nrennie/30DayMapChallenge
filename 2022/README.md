@@ -10,3 +10,8 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 <p align="center">
 <img src="maps/day_01.png?raw=true" width="50%">
 </p>
+
+### Day 2 (Lines)
+<p align="center">
+<img src="maps/day_02.png?raw=true" width="50%">
+</p>
