@@ -6,3 +6,7 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 <img src="images/prompts.jpg?raw=true" width="50%">
 </p>
 
+### Day 1 (Points)
+<p align="center">
+<img src="maps/day_01.png?raw=true" width="50%">
+</p>
