@@ -20,3 +20,8 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 <p align="center">
 <img src="maps/day_03.png?raw=true" width="50%">
 </p>
+
+### Day 4 (Green)
+<p align="center">
+<img src="maps/day_04.png?raw=true" width="50%">
+</p>
