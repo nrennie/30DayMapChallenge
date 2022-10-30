@@ -35,37 +35,37 @@ p <- ggplot() +
 rect1 <- rectGrob(
   x = unit(1, "cm"),
   y = unit(1, "npc") - unit(1, "cm"),
-  width = unit(1, "cm"),
-  height = unit(1, "cm"),
+  width = unit(0.5, "cm"),
+  height = unit(0.5, "cm"),
   hjust = 0, vjust = 1,
-  gp = gpar(fill = "#fab824", color = "#fab824")
+  gp = gpar(fill = "#fab824", col = "#fab824")
 )
 
 rect2 <- rectGrob(
-  x = unit(2.3, "cm"),
+  x = unit(1.8, "cm"),
   y = unit(1, "npc") - unit(1, "cm"),
-  width = unit(1, "cm"),
-  height = unit(1, "cm"),
+  width = unit(0.5, "cm"),
+  height = unit(0.5, "cm"),
   hjust = 0, vjust = 1,
-  gp = gpar(fill = "#fab824", color = "#fab824")
+  gp = gpar(fill = "#fab824", col = "#fab824")
 )
 
 rect3 <- rectGrob(
   x = unit(1, "cm"),
-  y = unit(1, "npc") - unit(2.3, "cm"),
-  width = unit(1, "cm"),
-  height = unit(1, "cm"),
+  y = unit(1, "npc") - unit(1.8, "cm"),
+  width = unit(0.5, "cm"),
+  height = unit(0.5, "cm"),
   hjust = 0, vjust = 1,
-  gp = gpar(fill = "#fab824", color = "#fab824")
+  gp = gpar(fill = "#fab824", col = "#fab824")
 )
 
 rect4 <- rectGrob(
-  x = unit(2.3, "cm"),
-  y = unit(1, "npc") - unit(2.3, "cm"),
-  width = unit(1, "cm"),
-  height = unit(1, "cm"),
+  x = unit(1.8, "cm"),
+  y = unit(1, "npc") - unit(1.8, "cm"),
+  width = unit(0.5, "cm"),
+  height = unit(0.5, "cm"),
   hjust = 0, vjust = 1,
-  gp = gpar(fill = "#fab824", color = "#fab824")
+  gp = gpar(fill = "#fab824", col = "#fab824")
 )
 
 # draw
@@ -74,7 +74,7 @@ ggdraw(p) +
   draw_grob(rect2) +
   draw_grob(rect3) +
   draw_grob(rect4) +
-  draw_label(label = "GREGGS", colour = "white", fontface = "bold", size = 30, x = 0.4, y = 0.86)
+  draw_label(label = "GREGGS", colour = "white", fontface = "bold", size = 30, x = 0.33, y = 0.89)
 
 # save
 ggsave("2022/maps/day_01.png", height = 6, width = 6)
