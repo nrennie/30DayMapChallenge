@@ -30,3 +30,11 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 <p align="center">
 <img src="maps/day_05.png?raw=true" width="50%">
 </p>
+
+### Day 6 (Network)
+<p align="center">
+<img src="maps/day_06.png?raw=true" width="50%">
+</p>
+
+
+
