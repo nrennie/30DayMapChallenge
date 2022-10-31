@@ -21,15 +21,17 @@ greggs_sf <- greggs %>%
 # plot points
 p <- ggplot() +
   geom_sf(data = uk,
-          colour = "#00558e",
+          size = 0.5,
+          colour = "#fab824",
           fill = "#fab824") +
   geom_sf(data = greggs_sf,
-          size = 0.5,
+          size = 0.3,
           colour = "#00558e") +
   theme_void() +
   theme(plot.background = element_rect(fill = "#00558e", colour = "#00558e"),
         panel.background = element_rect(fill = "#00558e", colour = "#00558e"),
         plot.margin = unit(c(0.5, 3.5, 0.5, 3.5), units = "cm"))
+p
 
 # add squares
 rect1 <- rectGrob(
