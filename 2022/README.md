@@ -46,5 +46,7 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 <img src="maps/day_08.png?raw=true" width="50%">
 </p>
 
-
-
+### Day 9 (Space)
+<p align="center">
+<img src="maps/day_09.png?raw=true" width="50%">
+</p>
