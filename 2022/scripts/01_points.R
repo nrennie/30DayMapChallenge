@@ -79,5 +79,5 @@ ggdraw(p) +
   draw_label(label = "GREGGS", colour = "white", fontface = "bold", size = 30, x = 0.33, y = 0.89)
 
 # save
-ggsave("2022/maps/day_01.png", height = 6, width = 6)
+ggsave("2022/maps/day_01.png", height = 6, width = 6, bg = "#00558e")
 
