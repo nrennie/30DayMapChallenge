@@ -61,3 +61,8 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 <img src="maps/day_11.png?raw=true" width="50%">
 </p>
 
+### Day 12 (Scale)
+<p align="center">
+<img src="maps/day_12.png?raw=true" width="50%">
+</p>
+
