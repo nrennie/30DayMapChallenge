@@ -34,7 +34,7 @@ ggsave("2022/maps/day_05.png", height = 6, width = 6, bg = "#017cc2")
 
 # Updated Map -------------------------------------------------------------
 
-# UK Map from https://geoportal.statistics.gov.uk/datasets/ons::countries-december-2021-uk-buc/explore?location=55.216238%2C-3.316413%2C6.38
+# Ukraine Map from https://data.humdata.org/dataset/cod-ab-ukr?
 ukraine <- sf::st_read("2022/data/Ukraine/ukr_admbnda_adm0_sspe_20221005.shp") 
 
 # kyiv 
