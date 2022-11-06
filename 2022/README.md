@@ -70,3 +70,8 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 <p align="center">
 <img src="maps/day_13.png?raw=true" width="50%">
 </p>
+
+### Day 14 (5 Hexagons)
+<p align="center">
+<img src="maps/day_14.png?raw=true" width="50%">
+</p>
