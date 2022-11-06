@@ -66,3 +66,7 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 <img src="maps/day_12.png?raw=true" width="50%">
 </p>
 
+### Day 13 (5 Minutes)
+<p align="center">
+<img src="maps/day_13.png?raw=true" width="50%">
+</p>
