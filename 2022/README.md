@@ -71,7 +71,12 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 <img src="maps/day_13.png?raw=true" width="50%">
 </p>
 
-### Day 14 (5 Hexagons)
+### Day 14 (Hexagons)
 <p align="center">
 <img src="maps/day_14.png?raw=true" width="50%">
+</p>
+
+### Day 15 (Food / Drink)
+<p align="center">
+<img src="maps/day_15.png?raw=true" width="50%">
 </p>
