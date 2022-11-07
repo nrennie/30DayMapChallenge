@@ -80,3 +80,8 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 <p align="center">
 <img src="maps/day_15.png?raw=true" width="50%">
 </p>
+
+### Day 16 (Minimal)
+<p align="center">
+<img src="maps/day_16.png?raw=true" width="50%">
+</p>
