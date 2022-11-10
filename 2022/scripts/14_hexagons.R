@@ -16,6 +16,11 @@ life_exp <- life_exp %>%
 us_map <- us_map %>% 
   left_join(life_exp, by = "id")
 
+us_map_text <- us_map %>% 
+  group_by(id) %>% 
+  summarise(long = mean(long), 
+            lat = mean(lat),
+            overall = mean(overall))
 # plot map
 ggplot(data = us_map,
        mapping = aes(map_id = id,
@@ -24,7 +29,9 @@ ggplot(data = us_map,
                      fill = overall)) +
   geom_map(map = us_map,
            colour = "white",
-           size = 1.5) +
+           linewidth = 1.5) +
+  geom_text(data = us_map_text,
+            aes(label = id)) +
   labs(title = "Life Expectancy in the USA") +
   scale_fill_carto_c(name = "", palette = "SunsetDark") +
   coord_map() +
