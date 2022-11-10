@@ -100,3 +100,8 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 <p align="center">
 <img src="maps/day_19.png?raw=true" width="50%">
 </p>
+
+### Day 20 (My Favourite ...)
+<p align="center">
+<img src="maps/day_20.png?raw=true" width="50%">
+</p>
