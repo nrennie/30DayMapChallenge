@@ -105,3 +105,8 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 <p align="center">
 <img src="maps/day_20.png?raw=true" width="50%">
 </p>
+
+### Day 21 (Kontur Population Data)
+<p align="center">
+<img src="maps/day_21.png?raw=true" width="50%">
+</p>
