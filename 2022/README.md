@@ -6,6 +6,12 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 <img src="images/prompts.jpg?raw=true" width="50%">
 </p>
 
+My contributions for the #30DayMapChallenge in 2022:
+
+<p align="center">
+<img src="images/2022.png?raw=true" width="50%">
+</p>
+
 ### Day 1 (Points)
 <p align="center">
 <img src="maps/day_01.png?raw=true" width="50%">
@@ -109,4 +115,49 @@ A repository containing code for the 2022 #30DayMapChallenge. Check out the chal
 ### Day 21 (Kontur Population Data)
 <p align="center">
 <img src="maps/day_21.png?raw=true" width="50%">
+</p>
+
+### Day 22 (NULL)
+<p align="center">
+<img src="maps/day_22.png?raw=true" width="50%">
+</p>
+
+### Day 23 (Movement)
+<p align="center">
+<img src="maps/day_23.png?raw=true" width="50%">
+</p>
+
+### Day 24 (Fantasy))
+<p align="center">
+<img src="maps/day_24.png?raw=true" width="50%">
+</p>
+
+### Day 25 (Two Colours)
+<p align="center">
+<img src="maps/day_25.png?raw=true" width="50%">
+</p>
+
+### Day 26 (Islands)
+<p align="center">
+<img src="maps/day_26.png?raw=true" width="50%">
+</p>
+
+### Day 27 (Music)
+<p align="center">
+<img src="maps/day_27.png?raw=true" width="50%">
+</p>
+
+### Day 28 (3D)
+<p align="center">
+<img src="maps/day_28.png?raw=true" width="50%">
+</p>
+
+### Day 29 (Out of Comfort Zone)
+<p align="center">
+<img src="maps/day_29.png?raw=true" width="50%">
+</p>
+
+### Day 30 (Remix)
+<p align="center">
+<img src="maps/day_30.png?raw=true" width="50%">
 </p>
