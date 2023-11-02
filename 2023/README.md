@@ -10,5 +10,5 @@ My contributions for the #30DayMapChallenge in 2023:
 
 ### Day 2 (Lines)
 <p align="center">
-<img src="maps/day_02.png" width="50%">
+<img src="maps/02_lines.png" width="50%">
 </p>
