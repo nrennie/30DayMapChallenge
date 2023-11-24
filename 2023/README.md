@@ -17,3 +17,8 @@ My contributions for the #30DayMapChallenge in 2023:
 <p align="center">
 <img src="maps/05_analog.png" width="50%">
 </p>
+
+### Day 26 (Minimal)
+<p align="center">
+<img src="maps/26_minimal.png" width="50%">
+</p>
