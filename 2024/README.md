@@ -5,3 +5,11 @@ A repository containing code for the 2024 #30DayMapChallenge. Check out the chal
 <p align="center">
 <img src="images/prompts.png" width="50%">
 </p>
+
+My contributions for the #30DayMapChallenge in 2024:
+
+### Day 6 (Raster)
+
+<p align="center">
+<img src="maps/06_raster.png" width="50%">
+</p>
