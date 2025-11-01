@@ -6,4 +6,10 @@ A repository containing code for the 2025 #30DayMapChallenge. Check out the chal
 <img src="images/prompts.png" width="50%">
 </p>
 
+My contributions for the #30DayMapChallenge in 2025:
 
+### Day 1 (Points)
+
+<p align="center">
+<img src="maps/01_points.png" width="50%">
+</p>
