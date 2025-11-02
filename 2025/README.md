@@ -20,6 +20,12 @@ My contributions for the #30DayMapChallenge in 2025:
 <img src="maps/02_lines.png" width="50%">
 </p>
 
+### Day 3 (Polygons)
+
+<p align="center">
+<img src="maps/03_polygons.png" width="50%">
+</p>
+
 ### Day 11 (Minimal)
 
 <p align="center">
