@@ -6,6 +6,7 @@ source("2025/scripts/setup.R")
 # Fonts -------------------------------------------------------------------
 
 sysfonts::font_add_google("Carter One", "Carter")
+sysfonts::font_add_google("Ubuntu")
 showtext::showtext_auto()
 showtext::showtext_opts(dpi = 300)
 
