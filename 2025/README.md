@@ -38,6 +38,12 @@ My contributions for the #30DayMapChallenge in 2025:
 <img src="maps/05_earth.png" width="50%">
 </p>
 
+### Day 6 (Dimensions)
+
+<p align="center">
+<img src="maps/06_dimensions.png" width="50%">
+</p>
+
 ### Day 11 (Minimal)
 
 <p align="center">
