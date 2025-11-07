@@ -67,11 +67,11 @@ plot_map <- function(n_cols_i) {
 
 # Plot --------------------------------------------------------------------
 
-set.seed(7)
 n_cols <- c(2, 3, 4, 7, 10)
 
 all_plots <- list()
 for (i in seq_len(length(n_cols))) {
+  set.seed(7)
   g <- cowplot::plot_grid(plot_map(n_cols[i])) +
     theme(
       plot.title = element_text(
@@ -117,6 +117,7 @@ for (i in seq_len(length(n_cols))) {
         margin = margin(t = 5, b = 5)
       )
     )
+  set.seed(7)
   g <- cowplot::plot_grid(plot_map(n_cols[i]),
     labels = glue("{n_cols[i]}\ncolours"),
     label_size = 10,
