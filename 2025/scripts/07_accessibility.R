@@ -146,7 +146,7 @@ for (i in seq_len(length(n_cols))) {
 }
 all_plots_list <- list_flatten(all_plots)
 
-wrap_plots(all_plots_list) +
+final_plot <- wrap_plots(all_plots_list) +
   plot_annotation(
     title = "How accessible is your map?",
     subtitle = "The default categorical colour palette used in *ggplot2* is not accessible to people with different types of colour vision deficiency, especially when more colours are required.",
@@ -188,6 +188,7 @@ wrap_plots(all_plots_list) +
 # Save --------------------------------------------------------------------
 
 ggsave(
+  final_plot,
   filename = "2025/maps/07_accessibility.png",
   bg = "grey95", height = 6, width = 5, units = "in"
 )
