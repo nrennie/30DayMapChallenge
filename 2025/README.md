@@ -56,6 +56,12 @@ My contributions for the #30DayMapChallenge in 2025:
 <img src="maps/08_urban.png" width="50%">
 </p>
 
+### Day 10 (Air)
+
+<p align="center">
+<img src="maps/10_air.png" width="50%">
+</p>
+
 ### Day 11 (Minimal)
 
 <p align="center">
