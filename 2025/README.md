@@ -56,6 +56,12 @@ My contributions for the #30DayMapChallenge in 2025:
 <img src="maps/08_urban.png" width="50%">
 </p>
 
+### Day 9 (Analog)
+
+<p align="center">
+<img src="maps/09_analog.jpg" width="50%">
+</p>
+
 ### Day 10 (Air)
 
 <p align="center">
