@@ -73,3 +73,9 @@ My contributions for the #30DayMapChallenge in 2025:
 <p align="center">
 <img src="maps/11_minimal.png" width="50%">
 </p>
+
+### Day 12 (Map from 2125)
+
+<p align="center">
+<img src="maps/12_2125.png" width="50%">
+</p>
