@@ -209,7 +209,7 @@ ggplot() +
     data = circle,
     fill = "transparent",
     colour = "#000066",
-    linewidth = 1.5
+    linewidth = 2
   ) +
   scale_fill_manual(
     values = col_palette
