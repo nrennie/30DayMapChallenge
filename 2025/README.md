@@ -86,6 +86,12 @@ My contributions for the #30DayMapChallenge in 2025:
 <img src="maps/13_10_minutes.png" width="50%">
 </p>
 
+### Day 14 (OpenStreetMap)
+
+<p align="center">
+<img src="maps/14_openstreetmap.png" width="50%">
+</p>
+
 ### Day 16 (Cell)
 
 <p align="center">
