@@ -103,3 +103,12 @@ My contributions for the #30DayMapChallenge in 2025:
 <p align="center">
 <img src="maps/16_cell.png" width="50%">
 </p>
+
+### Day 30 (Makeover)
+
+<p align="center">
+<img src="maps/30_makeover.png" width="50%">
+</p>
+
+Original chart: [2022 (Day 18)](https://github.com/nrennie/30DayMapChallenge/blob/main/2022/maps/day_18.png)
+
