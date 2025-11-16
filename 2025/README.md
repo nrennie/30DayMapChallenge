@@ -92,6 +92,12 @@ My contributions for the #30DayMapChallenge in 2025:
 <img src="maps/14_openstreetmap.png" width="50%">
 </p>
 
+### Day 15 (Fire)
+
+<p align="center">
+<img src="maps/15_fire.gif" width="50%">
+</p>
+
 ### Day 16 (Cell)
 
 <p align="center">
