@@ -104,6 +104,12 @@ My contributions for the #30DayMapChallenge in 2025:
 <img src="maps/16_cell.png" width="50%">
 </p>
 
+### Day 18 (Out of this World)
+
+<p align="center">
+<img src="maps/18_out_of_this_world.png" width="50%">
+</p>
+
 ### Day 30 (Makeover)
 
 <p align="center">
