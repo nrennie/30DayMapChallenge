@@ -116,6 +116,12 @@ My contributions for the #30DayMapChallenge in 2025:
 <img src="maps/18_out_of_this_world.png" width="50%">
 </p>
 
+### Day 19 (Projections)
+
+<p align="center">
+<img src="maps/19_projections.png" width="50%">
+</p>
+
 ### Day 20 (Water)
 
 <p align="center">
