@@ -128,6 +128,12 @@ My contributions for the #30DayMapChallenge in 2025:
 <img src="maps/20_water.png" width="50%">
 </p>
 
+### Day 22 (Natural Earth)
+
+<p align="center">
+<img src="maps/22_natural_earth.png" width="50%">
+</p>
+
 ### Day 30 (Makeover)
 
 <p align="center">
