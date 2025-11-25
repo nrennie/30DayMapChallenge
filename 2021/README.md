@@ -3,161 +3,157 @@
 A repository containing code for the 2021 #30DayMapChallenge. Check out the challenge at [github.com/tjukanovt/30DayMapChallenge](https://github.com/tjukanovt/30DayMapChallenge), or see the prompts below. You can also see my contributions for the challenge on twitter at [@nrennie35](https://twitter.com/nrennie35) from November 1 2021.
 
 <p align="center">
-<img src="images/prompts.png?raw=true" width="50%">
+<img src="prompts.png" width="50%">
 </p>
 
-I created all 30 maps in November, with each one shown in full below:
+My contributions for the #30DayMapChallenge in 2024:
 
+## Day 1 (Points) made with R
 <p align="center">
-<img src="viz/maps.png?raw=true" width="50%">
+<img src="maps/day_01.jpg" width="50%">
 </p>
 
-## Day 1 (Points)
+## Day 2 (Lines) made with R
 <p align="center">
-<img src="viz/map_01.jpg?raw=true" width="50%">
+<img src="maps/day_02.png" width="50%">
 </p>
 
-## Day 2 (Lines)
+## Day 3 (Polygons) made with R
 <p align="center">
-<img src="viz/map_02.png?raw=true" width="50%">
+<img src="maps/day_03.jpg" width="50%">
 </p>
 
-## Day 3 (Polygons)
+## Day 4 (Hexagons) made with R
 <p align="center">
-<img src="viz/map_03.jpg?raw=true" width="50%">
+<img src="maps/day_04.jpg" width="50%">
 </p>
 
-## Day 4 (Hexagons)
+## Day 5 (OpenStreetMap) made with R
 <p align="center">
-<img src="viz/map_04.jpg?raw=true" width="50%">
+<img src="maps/day_05.jpg" width="50%">
 </p>
 
-## Day 5 (OpenStreetMap)
+## Day 6 (Red) made with R
 <p align="center">
-<img src="viz/map_05.jpg?raw=true" width="50%">
+<img src="maps/day_06.jpg" width="50%">
 </p>
 
-## Day 6 (Red)
+## Day 7 (Green) made with R
 <p align="center">
-<img src="viz/map_06.jpg?raw=true" width="50%">
+<img src="maps/day_07.jpg" width="50%">
 </p>
 
-## Day 7 (Green)
+## Day 8 (Blue) made with R
 <p align="center">
-<img src="viz/map_07.jpg?raw=true" width="50%">
+<img src="maps/day_08.jpg" width="50%">
 </p>
 
-## Day 8 (Blue)
+## Day 9 (Monochrome) made with R
 <p align="center">
-<img src="viz/map_08.jpg?raw=true" width="50%">
+<img src="maps/day_09.jpg" width="50%">
 </p>
 
-## Day 9 (Monochrome)
+## Day 10 (Raster) made with R
 <p align="center">
-<img src="viz/map_09.jpg?raw=true" width="50%">
+<img src="maps/day_10.png" width="50%">
 </p>
 
-## Day 10 (Raster)
+## Day 11 (3D) made with R
 <p align="center">
-<img src="viz/map_10.png?raw=true" width="50%">
+<img src="maps/day_11.png" width="50%">
 </p>
 
-## Day 11 (3D)
+## Day 12 (Population) made with R
 <p align="center">
-<img src="viz/map_11.png?raw=true" width="50%">
+<img src="maps/day_12.jpg" width="50%">
 </p>
 
-## Day 12 (Population)
+## Day 13 (Natural Earth) made with R
 <p align="center">
-<img src="viz/map_12.jpg?raw=true" width="50%">
+<img src="maps/day_13.jpg" width="50%">
 </p>
 
-## Day 13 (Natural Earth)
+## Day 14 (Map with a new tool) made with Tableau
 <p align="center">
-<img src="viz/map_13.jpg?raw=true" width="50%">
+<img src="maps/day_14.png" width="50%">
 </p>
 
-## Day 14 (Map with a new tool)
+## Day 15 (Map without a computer) made with watercolour
 <p align="center">
-<img src="viz/map_14.png?raw=true" width="50%">
+<img src="maps/day_15.jpg" width="50%">
 </p>
 
-## Day 15 (Map without a computer)
+## Day 16 (Urban/rural) made with R
 <p align="center">
-<img src="viz/map_15.jpg?raw=true" width="50%">
+<img src="maps/day_16.jpg" width="50%">
 </p>
 
-## Day 16 (Urban/rural)
+## Day 17 (Land) made with R
 <p align="center">
-<img src="viz/map_16.jpg?raw=true" width="50%">
+<img src="maps/day_17.jpg" width="50%">
 </p>
 
-## Day 17 (Land)
+## Day 18 (Water) made with R
 <p align="center">
-<img src="viz/map_17.jpg?raw=true" width="50%">
+<img src="maps/day_18.jpeg" width="50%">
 </p>
 
-## Day 18 (Water)
+## Day 19 (Island(s)) made with R
 <p align="center">
-<img src="viz/map_18.jpeg?raw=true" width="50%">
+<img src="maps/day_19.jpg" width="50%">
 </p>
 
-## Day 19 (Island(s))
+## Day 20 (Movement) made with R
 <p align="center">
-<img src="viz/map_19.jpg?raw=true" width="50%">
+<img src="maps/day_20.jpg" width="50%">
 </p>
 
-## Day 20 (Movement)
+## Day 21 (Elevation) made with R
 <p align="center">
-<img src="viz/map_20.jpg?raw=true" width="50%">
+<img src="maps/day_21.png" width="50%">
 </p>
 
-## Day 21 (Elevation)
+## Day 22 (Boundaries) made with R
 <p align="center">
-<img src="viz/map_21.png?raw=true" width="50%">
+<img src="maps/day_22.png" width="50%">
 </p>
 
-## Day 22 (Boundaries)
+## Day 23 (GHSL) made with R
 <p align="center">
-<img src="viz/map_22.png?raw=true" width="50%">
+<img src="maps/day_23.jpg" width="50%">
 </p>
 
-## Day 23 (GHSL)
+## Day 24 (Historical map) made with R
 <p align="center">
-<img src="viz/map_23.jpg?raw=true" width="50%">
+<img src="maps/day_24.jpg" width="50%">
 </p>
 
-## Day 24 (Historical map)
+## Day 25 (Interactive map) made with R
 <p align="center">
-<img src="viz/map_24.jpg?raw=true" width="50%">
+<img src="maps/day_25.png" width="50%">
 </p>
 
-## Day 25 (Interactive map)
+## Day 26 (Choropleth map) made with R
 <p align="center">
-<img src="viz/map_25.png?raw=true" width="50%">
+<img src="maps/day_26.jpg" width="50%">
 </p>
 
-## Day 26 (Choropleth map)
+## Day 27 (Heatmap) made with R
 <p align="center">
-<img src="viz/map_26.jpg?raw=true" width="50%">
+<img src="maps/day_27.jpg" width="50%">
 </p>
 
-## Day 27 (Heatmap)
+## Day 28 (The Earth is not flat) made with R
 <p align="center">
-<img src="viz/map_27.jpg?raw=true" width="50%">
+<img src="maps/day_28.jpeg" width="50%">
 </p>
 
-## Day 28 (The Earth is not flat)
+## Day 29 (Null) made with R
 <p align="center">
-<img src="viz/map_28.jpeg?raw=true" width="50%">
+<img src="maps/day_29.png" width="50%">
 </p>
 
-## Day 29 (Null)
+## Day 30 (Metamapping) made with R
 <p align="center">
-<img src="viz/map_29.png?raw=true" width="50%">
-</p>
-
-## Day 30 (Metamapping)
-<p align="center">
-<img src="viz/map_30.jpg?raw=true" width="50%">
+<img src="maps/day_30.jpg" width="50%">
 </p>
