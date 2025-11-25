@@ -21,7 +21,7 @@ get_readme <- function(year) {
       number = stringr::str_pad(readr::parse_number(prompt), 2, pad = "0"),
       tool = stringr::str_match(raw_char, ".*made with\\s*(.*)$")[,2],
       tool = stringr::str_remove_all(tool, "\\[.*?\\]|\\(.*?\\)|\\{.*?\\}"),
-      image_url = glue::glue("https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/{year}/maps/day_{number}"),
+      image_url = glue::glue("https://raw.githubusercontent.com/nrennie/30DayMapChallenge/refs/heads/main/{year}/maps/day_{number}"),
       file_ext = dplyr::if_else(
         file.exists(glue::glue("{year}/maps/day_{number}.jpg")), ".jpg", ".png"
       ),
