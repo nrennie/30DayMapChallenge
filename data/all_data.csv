@@ -1,0 +1,88 @@
+year,prompt,number,tool,image_url
+2021,Day 1 (Points),01,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_01.jpg
+2021,Day 2 (Lines),02,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_02.png
+2021,Day 3 (Polygons),03,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_03.jpg
+2021,Day 4 (Hexagons),04,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_04.jpg
+2021,Day 5 (OpenStreetMap),05,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_05.jpg
+2021,Day 6 (Red),06,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_06.jpg
+2021,Day 7 (Green),07,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_07.jpg
+2021,Day 8 (Blue),08,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_08.jpg
+2021,Day 9 (Monochrome),09,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_09.jpg
+2021,Day 10 (Raster),10,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_10.png
+2021,Day 11 (3D),11,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_11.png
+2021,Day 12 (Population),12,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_12.jpg
+2021,Day 13 (Natural Earth),13,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_13.jpg
+2021,Day 14 (Map with a new tool),14,Tableau,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_14.png
+2021,Day 15 (Map without a computer),15,watercolour,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_15.jpg
+2021,Day 16 (Urban/rural),16,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_16.jpg
+2021,Day 17 (Land),17,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_17.jpg
+2021,Day 18 (Water),18,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_18.png
+2021,Day 19 (Island(s)),19,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_19.jpg
+2021,Day 20 (Movement),20,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_20.jpg
+2021,Day 21 (Elevation),21,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_21.png
+2021,Day 22 (Boundaries),22,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_22.png
+2021,Day 23 (GHSL),23,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_23.jpg
+2021,Day 24 (Historical map),24,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_24.jpg
+2021,Day 25 (Interactive map),25,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_25.png
+2021,Day 26 (Choropleth map),26,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_26.jpg
+2021,Day 27 (Heatmap),27,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_27.jpg
+2021,Day 28 (The Earth is not flat),28,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_28.png
+2021,Day 29 (Null),29,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_29.png
+2021,Day 30 (Metamapping),30,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2021/maps/day_30.jpg
+2022,Day 1 (Points),01,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_01.png
+2022,Day 2 (Lines),02,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_02.png
+2022,Day 3 (Polygons),03,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_03.png
+2022,Day 4 (Green),04,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_04.png
+2022,Day 5 (Ukraine),05,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_05.png
+2022,Day 6 (Network),06,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_06.png
+2022,Day 7 (Raster),07,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_07.png
+2022,Day 8 (OpenStreetMap Data),08,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_08.png
+2022,Day 9 (Space),09,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_09.png
+2022,Day 10 (A Bad Map),10,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_10.png
+2022,Day 11 (Red),11,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_11.png
+2022,Day 12 (Scale),12,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_12.png
+2022,Day 13 (5 Minutes),13,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_13.png
+2022,Day 14 (Hexagons),14,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_14.png
+2022,Day 15 (Food / Drink),15,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_15.png
+2022,Day 16 (Minimal),16,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_16.png
+2022,Day 17 (Without a Computer),17,pen,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_17.jpg
+2022,Day 18 (Blue),18,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_18.png
+2022,Day 19 (Globe),19,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_19.png
+2022,Day 20 (My Favourite ...),20,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_20.png
+2022,Day 21 (Kontur Population Data),21,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_21.png
+2022,Day 22 (NULL),22,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_22.png
+2022,Day 23 (Movement),23,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_23.png
+2022,Day 24 (Fantasy)),24,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_24.png
+2022,Day 25 (Two Colours),25,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_25.png
+2022,Day 26 (Islands),26,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_26.png
+2022,Day 27 (Music),27,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_27.png
+2022,Day 28 (3D),28,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_28.png
+2022,Day 29 (Out of Comfort Zone),29,Python,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_29.png
+2022,Day 30 (Remix),30,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2022/maps/day_30.png
+2023,Day 2 (Lines),02,Python,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2023/maps/day_02.png
+2023,Day 5 (Analog),05,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2023/maps/day_05.png
+2023,Day 26 (Minimal),26,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2023/maps/day_26.png
+2024,Day 6 (Raster),06,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2024/maps/day_06.png
+2025,Day 1 (Points),01,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_01.png
+2025,Day 2 (Lines),02,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_02.png
+2025,Day 3 (Polygons),03,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_03.png
+2025,Day 4 (My Data),04,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_04.png
+2025,Day 5 (Earth),05,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_05.png
+2025,Day 6 (Dimensions),06,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_06.png
+2025,Day 7 (Accessibility),07,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_07.png
+2025,Day 8 (Urban),08,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_08.png
+2025,Day 9 (Analog),09,pencil,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_09.jpg
+2025,Day 10 (Air),10,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_10.png
+2025,Day 11 (Minimal),11,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_11.png
+2025,Day 12 (Map from 2125),12,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_12.png
+2025,Day 13 (10 minute map),13,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_13.png
+2025,Day 14 (OpenStreetMap),14,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_14.png
+2025,Day 15 (Fire),15,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_15.png
+2025,Day 16 (Cell),16,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_16.png
+2025,Day 17 (New tool),17,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_17.png
+2025,Day 18 (Out of this World),18,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_18.png
+2025,Day 19 (Projections),19,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_19.png
+2025,Day 20 (Water),20,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_20.png
+2025,Day 21 (Icons),21,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_21.png
+2025,Day 22 (Natural Earth),22,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_22.png
+2025,Day 30 (Makeover),30,R,https://raw.githubusercontent.com/nrennie/30DayChartChallenge/refs/heads/main/2025/maps/day_30.png
