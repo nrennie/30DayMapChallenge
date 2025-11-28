@@ -123,6 +123,16 @@ My contributions for the #30DayMapChallenge in 2025:
 <img src="maps/day_25.png" width="50%">
 </p>
 
+## Day 26 (Transport) made with R
+<p align="center">
+<img src="maps/day_26.png" width="50%">
+</p>
+
+## Day 27 (Boundaries) made with R
+<p align="center">
+<img src="maps/day_27.png" width="50%">
+</p>
+
 ## Day 30 (Makeover) made with R
 <p align="center">
 <img src="maps/day_30.png" width="50%">
