@@ -138,6 +138,11 @@ My contributions for the #30DayMapChallenge in 2025:
 <img src="maps/day_27.png" width="50%">
 </p>
 
+## Day 28 (Black) made with R
+<p align="center">
+<img src="maps/day_28.png" width="50%">
+</p>
+
 ## Day 30 (Makeover) made with R
 <p align="center">
 <img src="maps/day_30.png" width="50%">
