@@ -118,6 +118,11 @@ My contributions for the #30DayMapChallenge in 2025:
 <img src="maps/day_22.png" width="50%">
 </p>
 
+## Day 23 (Process) made with R
+<p align="center">
+<img src="maps/day_23.gif" width="50%">
+</p>
+
 ## Day 24 (Places and their names) made with R
 <p align="center">
 <img src="maps/day_24.png" width="50%">
