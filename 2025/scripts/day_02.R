@@ -105,6 +105,6 @@ p <- ggplot2::ggplot() +
 # Save --------------------------------------------------------------------
 
 ggplot2::ggsave(p,
-  filename = "2025/maps/02_lines.png",
+  filename = "2025/maps/day_02.png",
   bg = bg_col, height = 11, width = 8.5, units = "in"
 )

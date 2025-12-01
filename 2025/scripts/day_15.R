@@ -118,7 +118,7 @@ g_anim <- g +
 
 animate(g_anim, height = 6, width = 4, units = "in", res = 300, bg = bg_col)
 
-anim_save("2025/maps/15_fire.gif")
+anim_save("2025/maps/day_15.gif")
 
 
 # Save --------------------------------------------------------------------
@@ -156,7 +156,7 @@ g_save + labs(title = "Scottish Wildfires in 2022")  +
     legend.position = "none"
   )
 ggsave(
-  filename = "2025/maps/15_fire.png",
+  filename = "2025/maps/day_15.png",
   bg = bg_col, height = 6,
   width = 4, units = "in"
 )

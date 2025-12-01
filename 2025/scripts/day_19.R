@@ -144,6 +144,6 @@ p1 + p2 +
 
 gg_stop_recording()
 ggsave(
-  filename = "2025/maps/19_projections.png",
+  filename = "2025/maps/day_19.png",
   bg = "grey97", height = 5.5, width = 7, units = "in"
 )

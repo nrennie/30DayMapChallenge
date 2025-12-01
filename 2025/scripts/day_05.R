@@ -94,6 +94,6 @@ wrap_plots(plot_list, ncol = 1) +
 # Save --------------------------------------------------------------------
 
 ggsave(
-  filename = "2025/maps/05_earth.png",
+  filename = "2025/maps/day_05.png",
   bg = "grey10", height = 10, width = 5, units = "in"
 )

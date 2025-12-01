@@ -107,7 +107,7 @@ p <- ggplot() +
 # Save --------------------------------------------------------------------
 
 ggsave(p,
-  filename = "2025/maps/12_2125.png",
+  filename = "2025/maps/day_12.png",
   bg = bg_col, height = 6, width = 4, units = "in"
 )
 

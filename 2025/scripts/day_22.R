@@ -124,7 +124,7 @@ finalPlot <- ggdraw() +
 
 # Save --------------------------------------------------------------------
 
-ggsave("2025/maps/22_natural_earth.png", finalPlot,
+ggsave("2025/maps/day_22.png", finalPlot,
        height = 7,
        width = 4,
        bg = bg_col,

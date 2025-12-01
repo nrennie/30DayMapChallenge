@@ -246,7 +246,7 @@ ggplot() +
 # Save --------------------------------------------------------------------
 
 ggsave(
-  filename = "2025/maps/14_openstreetmap.png",
+  filename = "2025/maps/day_14.png",
   bg = bg_col, height = 5.5,
   width = 4.25, units = "in"
 )

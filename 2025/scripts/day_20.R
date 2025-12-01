@@ -76,7 +76,7 @@ ggplot() +
 # Save --------------------------------------------------------------------
 
 ggsave(
-  filename = "2025/maps/20_water.png",
+  filename = "2025/maps/day_20.png",
   bg = bg_col, height = 5,
   width = 4, units = "in"
 )

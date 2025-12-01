@@ -138,5 +138,5 @@ My contributions for the #30DayMapChallenge in 2025:
 <img src="maps/day_30.png" width="50%">
 </p>
 
-Original chart: [2022 (Day 18)](https://github.com/nrennie/30DayMapChallenge/blob/main/2022/maps/day_day_18.png)
+Original chart: [2022 (Day 18)](https://github.com/nrennie/30DayMapChallenge/blob/main/2022/maps/day_18.png)
 

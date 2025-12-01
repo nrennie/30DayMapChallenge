@@ -186,6 +186,6 @@ p +
 # Save --------------------------------------------------------------------
 
 ggsave(
-  filename = "2025/maps/01_points.png",
+  filename = "2025/maps/day_01.png",
   bg = bg_col, height = 8, width = 6, units = "in"
 )

@@ -188,6 +188,6 @@ ggplot() +
 # Save --------------------------------------------------------------------
 
 ggsave(
-  filename = "2025/maps/18_out_of_this_world.png",
+  filename = "2025/maps/day_18.png",
   bg = bg_col, height = 4, width = 6, units = "in"
 )

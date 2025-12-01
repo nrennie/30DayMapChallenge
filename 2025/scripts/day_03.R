@@ -126,6 +126,6 @@ p
 # Save --------------------------------------------------------------------
 
 ggplot2::ggsave(p,
-  filename = "2025/maps/03_polygons.png",
+  filename = "2025/maps/day_03.png",
   bg = "black", height = 8, width = 8, units = "in"
 )

@@ -123,6 +123,6 @@ record_polaroid()
 
 gg_stop_recording()
 ggsave(p,
-  filename = "2025/maps/21_icons.png",
+  filename = "2025/maps/day_21.png",
   bg = bg_col, height = 5, width = 6, units = "in"
 )

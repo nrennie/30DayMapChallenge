@@ -231,7 +231,7 @@ p
 # Save --------------------------------------------------------------------
 
 ggsave(p,
-       filename = "2025/maps/08_urban.png",
+       filename = "2025/maps/day_08.png",
        bg = bg_col, height = 8, width = 4, units = "in"
 )
 

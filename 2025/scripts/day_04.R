@@ -138,6 +138,6 @@ ggplot() +
 # Save --------------------------------------------------------------------
 
 ggsave(
-  filename = "2025/maps/04_my_data.png",
+  filename = "2025/maps/day_04.png",
   bg = line_col, height = 8, width = 6, units = "in"
 )

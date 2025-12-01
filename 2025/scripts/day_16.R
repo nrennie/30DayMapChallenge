@@ -107,7 +107,7 @@ ggplot() +
 
 # Save --------------------------------------------------------------------
 
-ggsave("2025/maps/16_cell.png",
+ggsave("2025/maps/day_16.png",
   height = 6,
   width = 4,
   bg = bg_col,

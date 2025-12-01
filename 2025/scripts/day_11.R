@@ -96,6 +96,6 @@ record_polaroid()
 # Save --------------------------------------------------------------------
 
 ggsave(p,
-  filename = "2025/maps/11_minimal.png",
+  filename = "2025/maps/day_11.png",
   bg = "#0C2431", height = 5, width = 6, units = "in"
 )

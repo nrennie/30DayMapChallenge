@@ -190,6 +190,6 @@ final_plot <- wrap_plots(all_plots_list) +
 
 ggsave(
   final_plot,
-  filename = "2025/maps/07_accessibility.png",
+  filename = "2025/maps/day_07.png",
   bg = "grey95", height = 6, width = 5, units = "in"
 )

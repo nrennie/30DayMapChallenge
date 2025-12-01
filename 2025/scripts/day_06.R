@@ -57,7 +57,7 @@ plot_gg(p,
 
 # Save --------------------------------------------------------------------
 
-render_snapshot("2025/maps/06_dimensions")
+render_snapshot("2025/maps/day_06")
 
 # Final edits made in Inkscape
 

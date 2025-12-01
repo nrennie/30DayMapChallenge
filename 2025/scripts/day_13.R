@@ -96,6 +96,6 @@ ggplot() +
 # Save --------------------------------------------------------------------
 
 ggsave(
-  filename = "2025/maps/13_10_minutes.png",
+  filename = "2025/maps/day_13.png",
   bg = "white", height = 6, width = 4.6, units = "in"
 )

@@ -163,6 +163,6 @@ ggplot() +
 # Save --------------------------------------------------------------------
 
 ggsave(
-  filename = "2025/maps/10_air.png",
+  filename = "2025/maps/day_10.png",
   bg = bg_col, height = 7.5, width = 7, units = "in"
 )
