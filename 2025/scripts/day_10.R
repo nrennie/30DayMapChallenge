@@ -12,6 +12,16 @@ library(sf)
 library(ggnewscale)
 
 
+# Fonts -------------------------------------------------------------------
+
+font_add_google("Oswald")
+font_add_google("Nunito")
+showtext_auto()
+showtext_opts(dpi = 300)
+title_font <- "Oswald"
+body_font <- "Nunito"
+
+
 # Data --------------------------------------------------------------------
 
 sites2025 <- importMeta(
@@ -26,9 +36,18 @@ all_data <- importUKAQ(
   source = "aurn"
 )
 subset_data <- all_data |>
-  filter(date == "2025-11-06" | date == "2025-10-30")
+  filter(date == "2025-11-06" | date == "2025-10-30") |>  
+  select(code, date, no2) |> 
+  pivot_wider(names_from = date, values_from = no2) |> 
+  drop_na() |> 
+  pivot_longer(
+    cols = -code, names_to = "date", values_to = "no2"
+  ) |> 
+  mutate(
+    date = ymd(date)
+  )
 
-plot_data <- sites2024 |>
+plot_data <- sites2025 |>
   left_join(subset_data, by = "code") |>
   st_as_sf(coords = c("longitude", "latitude"), crs = 4326, remove = FALSE) |>
   drop_na(date) |>
@@ -51,15 +70,6 @@ uk <- ne_countries(
 ) |>
   st_transform(crs = 4326)
 
-
-# Fonts -------------------------------------------------------------------
-
-font_add_google("Oswald")
-font_add_google("Nunito")
-showtext_auto()
-showtext_opts(dpi = 300)
-title_font <- "Oswald"
-body_font <- "Nunito"
 
 
 # Define colours ----------------------------------------------------------
@@ -92,7 +102,7 @@ social <- nrBrand::social_caption(
 title <- "Bonfire Night worsens air pollution"
 st <- glue("Data from the Automatic Urban and Rural Network which measures air quality shows the dramatic effect of Bonfire Night on air pollution in the UK. Each circle represents a monitoring site. The size of the circle represents the amount of Nitrogen Dioxide measured in the air with <span style='color:{highlight_col}'>**sites exceeding a daily average of 40 µg/m<sup>3</sup>**</span> highighted in red.")
 cap <- paste0(
-  "**Data**: Automatic Urban and Rural Network via openair R package<br>**Graphic**: ", social
+  "**Note**: Only sites with data available for both dates are included.<br>**Data**: Automatic Urban and Rural Network via openair R package<br>**Graphic**: ", social
 )
 
 
