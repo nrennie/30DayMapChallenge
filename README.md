@@ -3,6 +3,7 @@ A repository containing code for the #30DayMapChallenge. Check out the challenge
 
 You can also see my contributions for the challenge on [LinkedIn](https://www.linkedin.com/in/nicola-rennie/), [Mastodon](https://fosstodon.org/@nrennie), or [BlueSky](https://bsky.app/profile/nrennie.bsky.social).
 
+* [2026](/2026/README.md)
 * [2025](/2025/README.md)
 * [2024](/2024/README.md)
 * [2023](/2023/README.md)

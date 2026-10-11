@@ -17,6 +17,7 @@
 2022/images/coasters.png
 2025/data
 2025/maps/*_raw.png
+2026/data
 *.svg
 recording/
 rosm.cache/
