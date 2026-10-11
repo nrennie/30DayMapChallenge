@@ -8,5 +8,5 @@ A repository containing code for the 2025 #30DayMapChallenge. Check out the chal
 
 ## Day 27 (New tool) made with Python
 <p align="center">
-<img src="maps/day_01.png" width="50%">
+<img src="maps/day_27.png" width="50%">
 </p>
