@@ -1,0 +1,274 @@
+---
+title: "Day 10: Prompting only"
+---
+
+The following code was used to call Gemini:
+
+```{r}
+library(ellmer)
+
+prompt <- "Write R code to create a map for the 30 Day Map Challenge, preferably using `ggplot2`. The prompt is 'prompting only' so you have free reign to decide on the data, map type, and styling. The output should be saved as a PNG file, and include source data attribution in the caption. The map title should summarise the main message, and the subtitle should provide additional details about the data."
+
+chat <- chat_google_gemini(model = "gemini-3.5-flash-lite")
+chat$chat(prompt)
+```
+
+The output is provided (essentially verbatim) below. Notes:
+
+* I didn't ask for a Markdown/Quarto document, I only asked for R code which I would generally write in a script.
+* I have replaced the code block sections below from ` ```{r} ` to ` ```{r} ` so that they actually run.
+* I also edited the file name used to save the chart. I want it in a specific format but didn't make that clear from the prompt. It originally saved as `manhattan_grid_map.png`.
+* I also split the code into multiple code blocks to avoid re-running the OpenStreetMap queries every time.
+
+# Output
+
+For the **#30DayMapChallenge** (specifically for a "Prompting Only" theme, where the
+map is generated entirely through code/algorithmic prompting), this R script creates
+a stunning, minimalist map of **Manhattan’s street grid**, downloaded directly via 
+the `osmdata` (OpenStreetMap) package.
+
+It uses `ggplot2` to style the different road hierarchies (highways, major streets, 
+and minor streets) with a sleek, dark-mode aesthetic.
+
+### Prerequisites
+
+You will need to install the following packages if you haven't already:
+
+```{r}
+install.packages(c("tidyverse", "osmdata", "sf", "showtext"))
+```
+
+### R Code
+
+```{r}
+# Load required libraries
+library(tidyverse)
+library(osmdata)
+library(sf)
+library(showtext)
+
+# Enable Google Fonts for better typography
+font_add_google("Cinzel", "cinzel")
+font_add_google("Lato", "lato")
+showtext_auto()
+
+# 1. RETRIEVE DATA FROM OPENSTREETMAP ------------------------------------------
+
+# Define the bounding box for Manhattan, New York City
+manhattan_bbox <- getbb("Manhattan, New York City, USA")
+
+# Query OpenStreetMap for different road types
+# A. Highways / Major Arterials
+q_highways <- manhattan_bbox %>%
+  opq() %>%
+  add_osm_feature(key = "highway", 
+                  value = c("motorway", "trunk", "primary", "secondary"))
+
+# B. Minor Streets / Local Roads
+q_streets <- manhattan_bbox %>%
+  opq() %>%
+  add_osm_feature(key = "highway", 
+                  value = c("tertiary", "residential", "living_street", 
+"unclassified"))
+
+# Convert queries to sf objects
+sf_highways <- osmdata_sf(q_highways)
+sf_streets <- osmdata_sf(q_streets)
+
+# Extract the linestrings
+roads_highways <- sf_highways$osm_lines
+roads_streets <- sf_streets$osm_lines
+
+
+# 2. PLOT WITH GGPLOT2 ---------------------------------------------------------
+
+# Define color palette (Dark mode aesthetic)
+bg_color <- "#0d1117"       # Very dark blue/black
+highway_color <- "#ff5e62"  # Vibrant coral/red for major roads
+street_color <- "#c9d1d9"   # Soft light grey for local grid
+```
+
+```{r}
+p <- ggplot() +
+  # Plot minor streets first (background layer)
+  geom_sf(data = roads_streets, 
+          color = street_color, 
+          linewidth = 0.15, 
+          alpha = 0.5) +
+  
+  # Plot highways on top (foreground layer)
+  geom_sf(data = roads_highways, 
+          color = highway_color, 
+          linewidth = 0.4, 
+          alpha = 0.8) +
+  
+  # Set coordinate system to maintain proper aspect ratio for NYC
+  coord_sf(xlim = c(manhattan_bbox[1, 1], manhattan_bbox[1, 2]),
+           ylim = c(manhattan_bbox[2, 1], manhattan_bbox[2, 2]),
+           expand = FALSE) +
+  
+  # Theme and styling
+  theme_void() +
+  theme(
+    plot.background = element_rect(fill = bg_color, color = NA),
+    panel.background = element_rect(fill = bg_color, color = NA),
+    plot.margin = margin(t = 40, r = 40, b = 40, l = 40),
+    
+    # Title formatting
+    plot.title = element_text(
+      family = "cinzel",
+      size = 28,
+      face = "bold",
+      color = "#ffffff",
+      hjust = 0,
+      margin = margin(b = 10)
+    ),
+    
+    # Subtitle formatting
+    plot.subtitle = element_text(
+      family = "lato",
+      size = 12,
+      color = "#8b949e",
+      hjust = 0,
+      lineheight = 1.3,
+      margin = margin(b = 20)
+    ),
+    
+    # Caption formatting
+    plot.caption = element_text(
+      family = "lato",
+      size = 9,
+      color = "#484f58",
+      hjust = 0,
+      margin = margin(t = 20)
+    )
+  ) +
+  
+  # Labels
+  labs(
+    title = "THE MANHATTAN GRID",
+    subtitle = "An algorithmic extraction of New York City's iconic urban fabric, 
+\nhighlighting the contrast between major arterial corridors and the local street 
+matrix.",
+    caption = "Map data © OpenStreetMap contributors | Created with R & ggplot2 for 
+#30DayMapChallenge"
+  )
+
+
+# 3. SAVE THE OUTPUT -----------------------------------------------------------
+
+# Save as a high-resolution PNG file suitable for social media sharing
+ggsave(
+  filename = "2026/maps/day_10_v0.png",
+  plot = p,
+  width = 8,
+  height = 10,
+  dpi = 300,
+  bg = bg_color
+)
+
+print("Map successfully created and saved as '2026/maps/day_10_v0.png'!")
+```
+
+### Features of this Map:
+1. **Data Source:** Pulls live, highly accurate vector data directly from 
+**OpenStreetMap** using `osmdata`.
+2. **Visual Hierarchy:** Differentiates between major highways/arterials (glowing 
+coral) and minor residential streets (muted grey) to emphasize traffic flow 
+patterns.
+3. **Typography:** Uses Google Fonts (`Cinzel` for an architectural header and 
+`Lato` for clean body text) via the `showtext` package.
+4. **Theme:** Designed with a striking dark-mode palette that makes the street grid 
+pop.
+5. **Attribution:** Properly credits OpenStreetMap in the caption, as required by 
+their terms of use.
+
+# Nicola's edits
+
+Keep the data, but improve the way the chart looks:
+
+```{r}
+library(ggtext)
+library(ggview)
+showtext_opts(dpi = 300)
+
+```
+
+```{r}
+ggplot() +
+  # Plot minor streets first (background layer)
+  geom_sf(data = roads_streets, 
+          color = street_color, 
+          linewidth = 0.15, 
+          alpha = 0.5) +
+  
+  # Plot highways on top (foreground layer)
+  geom_sf(data = roads_highways, 
+          color = highway_color, 
+          linewidth = 0.4, 
+          alpha = 0.8) +
+  
+  # Set coordinate system to maintain proper aspect ratio for NYC
+  coord_sf(xlim = c(manhattan_bbox[1, 1], manhattan_bbox[1, 2]),
+           ylim = c(manhattan_bbox[2, 1], manhattan_bbox[2, 2]),
+           expand = FALSE) +
+  
+  # Theme and styling
+  theme_void() +
+  theme(
+    plot.background = element_rect(fill = bg_color, color = NA),
+    panel.background = element_rect(fill = bg_color, color = NA),
+    plot.margin = margin(10, 0, 10, 0),
+    
+    # Title formatting
+    plot.title = element_textbox_simple(
+      family = "cinzel",
+      size = rel(1.4),
+      face = "bold",
+      color = "#ffffff",
+      hjust = 0,
+      margin = margin(b = 10)
+    ),
+    
+    # Subtitle formatting
+    plot.subtitle = element_textbox_simple(
+      family = "lato",
+      size = rel(1),
+      color = "#8b949e",
+      hjust = 0,
+      margin = margin(b = 10)
+    ),
+    
+    # Caption formatting
+    plot.caption = element_textbox_simple(
+      family = "lato",
+      size = rel(0.9),
+      color = "#484f58",
+      hjust = 0,
+      margin = margin(t = 10)
+    )
+  ) +
+  
+  # Labels
+  labs(
+    title = "THE MANHATTAN GRID",
+    subtitle = "An algorithmic extraction of New York City's iconic urban fabric,  highlighting the contrast between major arterial corridors and the local street matrix.",
+    caption = "Map data © OpenStreetMap contributors | Created with R & ggplot2 for 
+#30DayMapChallenge"
+  ) +
+  canvas(
+    width = 5, height = 10,
+    units = "in", bg = bg_color,
+    dpi = 300
+  ) -> p
+
+
+# 3. SAVE THE OUTPUT -----------------------------------------------------------
+
+save_ggplot(
+  plot = p,
+  file = "2026/maps/day_10.png"
+)
+
+print("Map successfully created and saved as '2026/maps/day_10.png'!")
+```
