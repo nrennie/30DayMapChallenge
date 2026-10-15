@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-day27 = "day_27:main"
+day27 = "maps2026:day_27"
 
 [build-system]
 requires = ["uv_build>=0.13.1,<0.14.0"]

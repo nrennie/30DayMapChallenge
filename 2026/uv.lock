@@ -98,25 +98,6 @@ wheels = [
 ]
 
 [[package]]
-name = "day-27"
-version = "0.1.0"
-source = { editable = "." }
-dependencies = [
-    { name = "geopandas" },
-    { name = "pandas" },
-    { name = "plotnine" },
-    { name = "pyproj" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "geopandas", specifier = ">=1.2.0" },
-    { name = "pandas", specifier = ">=3.0.6" },
-    { name = "plotnine", specifier = ">=0.15.8" },
-    { name = "pyproj", specifier = "<3.8" },
-]
-
-[[package]]
 name = "fonttools"
 version = "4.67.0"
 source = { registry = "https://pypi.org/simple" }
@@ -299,6 +280,25 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/e3/9a/59a6f6ae6f938c15076be2c21b6cedea973d71bb1349ec84fa485fab82cf/kiwisolver-1.5.1-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:ab620eb663952455271ac37f9aaad86b73c969c02f11f53cea405b38e96a4300", size = 2395634, upload-time = "2026-08-28T10:28:03.977Z" },
     { url = "https://files.pythonhosted.org/packages/e9/2d/8982c1fb7926da5bb7ed60318c3665b5c3f941447271ac982960a11b8637/kiwisolver-1.5.1-cp315-cp315t-win_amd64.whl", hash = "sha256:cb6fae641357ed2f6e533c0d3c6504a4a5703621a50c89459e46051d56b61140", size = 75379, upload-time = "2026-08-28T10:28:06.307Z" },
     { url = "https://files.pythonhosted.org/packages/07/78/ba7b6dfa1708b82b373ac056928a30c545d5c1a627df9839dcec3c6c1881/kiwisolver-1.5.1-cp315-cp315t-win_arm64.whl", hash = "sha256:b390aec180a7c054919c04898835e1c77bced23ea8383eb2c570213bf25d1a86", size = 73011, upload-time = "2026-08-28T10:28:07.578Z" },
+]
+
+[[package]]
+name = "maps2026"
+version = "0.1.0"
+source = { editable = "." }
+dependencies = [
+    { name = "geopandas" },
+    { name = "pandas" },
+    { name = "plotnine" },
+    { name = "pyproj" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "geopandas", specifier = ">=1.2.0" },
+    { name = "pandas", specifier = ">=3.0.6" },
+    { name = "plotnine", specifier = ">=0.15.8" },
+    { name = "pyproj", specifier = "<3.8" },
 ]
 
 [[package]]
