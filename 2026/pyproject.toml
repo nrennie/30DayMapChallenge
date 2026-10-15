@@ -1,7 +1,7 @@
 [project]
-name = "day_27"
+name = "maps2026"
 version = "0.1.0"
-description = "Add your description here"
+description = "2026 contributions to 30 Day Map Challenge"
 readme = "README.md"
 authors = [
     { name = "Nicola Rennie", email = "42338476+nrennie@users.noreply.github.com" }
@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-my-project = "day_27:main"
+day27 = "day_27:main"
 
 [build-system]
 requires = ["uv_build>=0.13.1,<0.14.0"]
