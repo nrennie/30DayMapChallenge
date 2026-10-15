@@ -8,8 +8,10 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "geopandas>=1.2.0",
     "pandas>=3.0.6",
     "plotnine>=0.15.8",
+    "pyproj<3.8",
 ]
 
 [project.scripts]

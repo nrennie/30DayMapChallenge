@@ -5,9 +5,9 @@ import plotnine as pn
 import textwrap
 
 # Load data
-ratios = pd.read_csv('2026/data/affordability.csv')
+ratios = pd.read_csv('data/affordability.csv')
 
-gdf = gp.read_file("2026/data/lad.geojson")
+gdf = gp.read_file("data/lad.geojson")
 gdf = gdf[gdf["LAD25CD"].str.startswith(("E", "W"))]
 gdf = gdf.to_crs("EPSG:27700")
 
@@ -56,4 +56,4 @@ p = (
 )
 
 # Save
-pn.ggsave(p, filename="2026/maps/day_27.png", height=7.5, width=5, dpi=300)
+pn.ggsave(p, filename="maps/day_27.png", height=7.5, width=5, dpi=300)
