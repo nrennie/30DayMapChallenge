@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+*.DS_Store
 30DayMapChallenge.Rproj
 2021/data
 2021/geofacet
