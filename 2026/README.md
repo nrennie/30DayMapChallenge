@@ -6,6 +6,11 @@ A repository containing code for the 2025 #30DayMapChallenge. Check out the chal
 <img src="prompts.png" width="50%">
 </p>
 
+## Day 2 (Lines) made with R
+<p align="center">
+<img src="maps/day_02.png" width="50%">
+</p>
+
 ## Day 10 (Prompting only) made with Gemini
 <p align="center">
 <img src="maps/day_10.png" width="50%">
